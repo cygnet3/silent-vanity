@@ -1,0 +1,10 @@
+[package]
+name = "silent-vanity"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bdk = { version = "0.28", features = ["keys-bip39"]}
+silentpayments = { git = "https://github.com/cygnet3/rust-silentpayments", branch = "master" }
+bech32 = "0.9"
+clap = { version = "4.4.2", features = ["derive"] }
